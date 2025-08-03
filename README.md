@@ -1,3 +1,3 @@
-# A place for me to practice Python objects & static typing
+# A place to store notes and examples gathered while working on narwhals
 
 may well be messy at times..
