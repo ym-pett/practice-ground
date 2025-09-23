@@ -11,7 +11,7 @@ class NarwhalsProject(Protocol[Marco| NarwhalsCommunity]):
     def safe_working_space(self, just_plain_lovely_people) -> DevelopmentEnabled:
         return mutual_appreciation(just_plain_lovely_people.welcoming_open, just_plain_lovely_people.respect)
     
-    def generous_knowledge_sharing(self, deep_expertise, just_plain_lovely_people) -> JammingWithCode
+    def generous_knowledge_sharing(self, deep_expertise, just_plain_lovely_people) -> JammingWithCode:
         return joy(deep_expertise, just_plain_lovely_people)
         
 
