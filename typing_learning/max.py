@@ -3,19 +3,20 @@
 from typing import TypeVar, Protocol, Any
 
 
-class ProtocolWithGreaterThan(Protocol):
+class FancyDataframeProtocol(Protocol):
+    ...
     def __gt__(self, other: Any) -> bool:
         ...
 
-T = TypeVar("T", bound=ProtocolWithGreaterThan)
+T = TypeVar("T", bound=FancyDataframeProtocol)
 
-class ClassWithCustomMax:
+class DataframeClassWithCustomMax():
     def max(self, x: T, y: T) -> T:
         if x > y:
             return x
         return y
 
-maxer = ClassWithCustomMax()
+maxer = DataframeClassWithCustomMax()
 max_int = maxer.max(4, 5)
 max_str = maxer.max("hello", "world!")
 
